@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-first_test in first_test
