@@ -1,0 +1,11 @@
+framework module PMSuperButton {
+  umbrella header "PMSuperButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module PMSuperButton.Swift {
+    header "PMSuperButton-Swift.h"
+    requires objc
+}

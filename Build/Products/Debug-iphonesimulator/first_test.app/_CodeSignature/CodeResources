@@ -8,6 +8,18 @@
 		<data>
 		0XvhOrK820us+r4pNQPRNKLnT0M=
 		</data>
+		<key>Frameworks/PMSuperButton.framework/Info.plist</key>
+		<data>
+		GEXef4c8n09JdiCD4OdEag3wN/g=
+		</data>
+		<key>Frameworks/PMSuperButton.framework/PMSuperButton</key>
+		<data>
+		JTbWI6CM7hVe+cC5KkskaRjLUqw=
+		</data>
+		<key>Frameworks/PMSuperButton.framework/_CodeSignature/CodeResources</key>
+		<data>
+		0ybMpX3xY2p964/6FkaJjrCdj6w=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		4WdfV5FYRrIr6eMomMqvGe2AiVw=
@@ -24,6 +36,27 @@
 			<key>hash2</key>
 			<data>
 			uzycPXCRHw5nXEGiIzdF7rLHzxnAJ0diqGqTJnBIzjw=
+			</data>
+		</dict>
+		<key>Frameworks/PMSuperButton.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HFmP8QdLTzsRqNCsNOVP89rrQ9fpoimMQ0p/6PPAlwE=
+			</data>
+		</dict>
+		<key>Frameworks/PMSuperButton.framework/PMSuperButton</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			70VHV5BnnFytUmFWT8OiqvXUY4/c1ggOc94WAiweQJQ=
+			</data>
+		</dict>
+		<key>Frameworks/PMSuperButton.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BnEngaou7YmO8iv0yZr1rVc8yJNV/HTp71BVSPTdf+M=
 			</data>
 		</dict>
 	</dict>

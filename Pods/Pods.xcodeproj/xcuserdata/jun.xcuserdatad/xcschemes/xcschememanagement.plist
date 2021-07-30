@@ -4,17 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-first_test-first_testUITests.xcscheme</key>
+		<key>PMSuperButton.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-first_test.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-first_testTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
