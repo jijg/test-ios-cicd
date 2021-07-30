@@ -15,7 +15,6 @@
 		BF4AC49126A8013A0041A278 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4AC49026A8013A0041A278 /* Preview Assets.xcassets */; };
 		BF4AC49C26A8013A0041A278 /* first_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4AC49B26A8013A0041A278 /* first_testTests.swift */; };
 		BF4AC4A726A8013A0041A278 /* first_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4AC4A626A8013A0041A278 /* first_testUITests.swift */; };
-		D656FB6227DCBBD5838DE670 /* libPods-first_test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0840F077C5C6A46D0CF381 /* libPods-first_test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D656FB6227DCBBD5838DE670 /* libPods-first_test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +95,6 @@
 				462D12B137AA254E177C91BD /* Pods-first_testTests.debug.xcconfig */,
 				FC3D1EA8F7201A98CE5EBCFE /* Pods-first_testTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -463,7 +460,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -518,6 +515,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -542,6 +540,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jg-corporation.first-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = BitriseTest;
