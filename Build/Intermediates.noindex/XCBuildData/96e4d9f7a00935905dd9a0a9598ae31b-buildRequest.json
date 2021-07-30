@@ -1,0 +1,60 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "e8819f86c40fc8fcb4a7debda22c01a86a9020c18506ad0165732805af9e9195"
+    },
+    {
+      "guid" : "96a51f1a87773f468e9bf4ae004a2d5fb12bd4deebfc11d8eab0a06373454b28"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos14.5",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/jun/Developments/swift/first_test/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/jun/Developments/swift/first_test/Build/Products",
+      "derivedDataPath" : "/Users/jun/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/jun/Library/Developer/Xcode/DerivedData/first_test-cxlyccxxijpehafqvnirlxpdivie/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jun/Library/Developer/Xcode/DerivedData/first_test-cxlyccxxijpehafqvnirlxpdivie/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/jun/Developments/swift/first_test/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

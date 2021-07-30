@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
+options: "1a14619df7d519540d85e41e5484ac33"
+build_time: [1627647096, 943476000]
+inputs:
+  "/Users/jun/Developments/swift/first_test/Pods/PMSuperButton/Sources/PMSuperButton.swift": [1627647015, 681621062]

@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
-options: "b816bad6a77bdd2be6e66c4fb59b485d"
-build_time: [1627645644, 411600000]
-inputs:
-  "/Users/jun/Developments/swift/first_test/first_test/ContentView.swift": [1627269433, 148634884]
-  "/Users/jun/Developments/swift/first_test/first_test/first_testApp.swift": [1626859419, 9740769]
