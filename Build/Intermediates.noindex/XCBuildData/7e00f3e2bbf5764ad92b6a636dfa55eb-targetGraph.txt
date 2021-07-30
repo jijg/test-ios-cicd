@@ -1,0 +1,10 @@
+Target dependency graph (5 targets)
+PMSuperButton in Pods
+Pods-first_test in Pods, depends on:
+PMSuperButton in Pods (explicit)
+first_test in first_test, depends on:
+Pods-first_test in Pods (implicit dependency via file 'Pods_first_test.framework' in build phase 'Link Binary'
+first_testTests in first_test, depends on:
+first_test in first_test (explicit)
+first_testUITests in first_test, depends on:
+first_test in first_test (explicit)
