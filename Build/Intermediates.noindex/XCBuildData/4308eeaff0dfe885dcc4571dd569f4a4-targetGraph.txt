@@ -1,0 +1,13 @@
+Target dependency graph (6 targets)
+Pods-first_test in Pods
+Pods-first_test-first_testUITests in Pods
+Pods-first_testTests in Pods, depends on:
+Pods-first_test in Pods (explicit)
+first_test in first_test, depends on:
+Pods-first_test in Pods (implicit dependency via file 'libPods-first_test.a' in build phase 'Link Binary'
+first_testTests in first_test, depends on:
+first_test in first_test (explicit)
+Pods-first_testTests in Pods (implicit dependency via file 'libPods-first_testTests.a' in build phase 'Link Binary'
+first_testUITests in first_test, depends on:
+first_test in first_test (explicit)
+Pods-first_test-first_testUITests in Pods (implicit dependency via file 'libPods-first_test-first_testUITests.a' in build phase 'Link Binary'
