@@ -12,7 +12,7 @@
 		<key>Pods-first_test.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Pods-first_testTests.xcscheme</key>
 		<dict>

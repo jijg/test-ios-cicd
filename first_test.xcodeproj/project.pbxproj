@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		326E07B90D15EA0C1CEABAC6 /* libPods-first_test-first_testUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 496A27871342CDE770E1FE28 /* libPods-first_test-first_testUITests.a */; };
-		890B190A0D34872E92678AE0 /* libPods-first_testTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A74569CDCFECA651B80CB95 /* libPods-first_testTests.a */; };
 		BF4AC48A26A801390041A278 /* first_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4AC48926A801390041A278 /* first_testApp.swift */; };
 		BF4AC48C26A801390041A278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4AC48B26A801390041A278 /* ContentView.swift */; };
 		BF4AC48E26A8013A0041A278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4AC48D26A8013A0041A278 /* Assets.xcassets */; };
@@ -54,6 +52,7 @@
 		BF4AC4A226A8013A0041A278 /* first_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = first_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4AC4A626A8013A0041A278 /* first_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first_testUITests.swift; sourceTree = "<group>"; };
 		BF4AC4A826A8013A0041A278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF2F34F26B40CD400B10D34 /* libPods-first_test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-first_test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C8CE61E68991F0BA6153FE /* Pods-first_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-first_test.release.xcconfig"; path = "Target Support Files/Pods-first_test/Pods-first_test.release.xcconfig"; sourceTree = "<group>"; };
 		FC3D1EA8F7201A98CE5EBCFE /* Pods-first_testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-first_testTests.release.xcconfig"; path = "Target Support Files/Pods-first_testTests/Pods-first_testTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +69,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				890B190A0D34872E92678AE0 /* libPods-first_testTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326E07B90D15EA0C1CEABAC6 /* libPods-first_test-first_testUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +98,7 @@
 		905E26F65360C4FE55EA8846 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFF2F34F26B40CD400B10D34 /* libPods-first_test.a */,
 				4F0840F077C5C6A46D0CF381 /* libPods-first_test.a */,
 				496A27871342CDE770E1FE28 /* libPods-first_test-first_testUITests.a */,
 				7A74569CDCFECA651B80CB95 /* libPods-first_testTests.a */,
