@@ -544,6 +544,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jg-corporation.first-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = BitriseTest;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -569,6 +570,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jg-corporation.first-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = BitriseTest;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
